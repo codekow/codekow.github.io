@@ -1,0 +1,94 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Build settings
+# theme: modern-resume-theme #(Use this is you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme #(Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Cory Latschkowski
+title: Capability Architect / DevOps Engineer
+email: open-to-work@happykow.com
+website: happykow.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jekyll
+github_username:  happykow
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: cory.latschkowski
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  DevOps Architect / Engineer looking to continue the agile journey
+  around open source technologies with teams who seek for
+  continuous improvement. Looking to share knowledge gained from
+  implementing technology, at scale, in an enterprise.
+
+  Invested the last decade evangelizing enterprise cultural improvements,
+  adoption of new technology, and innovation in areas such as: high performance
+  computing (HPC), cyber security, and hybrid cloud.
+
+  Skills: <mark>OpenShift</mark>, <mark>k8s</mark>, <mark>DevOps</mark>
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
